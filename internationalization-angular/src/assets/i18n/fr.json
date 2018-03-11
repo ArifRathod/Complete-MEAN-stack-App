@@ -1,0 +1,9 @@
+{
+    "Title": "Exemple de traduction",
+    "Intro": "Bonjour je m'appelle {{name}}, j'ai {{age}} ans.",
+    "name":  "entrez votre nom",
+    "password": "entrer un mot de passe",
+    "login": "s'identifier",
+    "welcome": "Nous saluons le retour"
+    
+}

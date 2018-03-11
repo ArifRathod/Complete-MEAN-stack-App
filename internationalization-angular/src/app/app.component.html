@@ -1,0 +1,34 @@
+<h1 translate>Title</h1>
+
+<div>
+  {{ 'Intro' | translate:user }}
+</div>
+
+
+<br>
+
+<button (click)="switchLanguage('en')">english</button>
+
+<button (click)="switchLanguage('fr')">french</button>
+
+<br>
+<div class="container">
+  <div class="row">
+      <div class="col-md-offset-5 col-md-3">
+          <div class="form-login">
+          <h4>{{ 'welcome' | translate:welcome }}</h4>
+          <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="{{ 'name' | translate:name }}" />
+          <br>
+          <input type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="{{ 'password' | translate:password }}" />
+          <br>
+          <br>
+          <div class="wrapper">
+          <span class="group-btn">     
+              <a href="#" class="btn btn-primary btn-md"> <button> {{ 'login' | translate:login }}</button> <i class="fa fa-sign-in"></i></a>
+          </span>
+          </div>
+          </div>
+      
+      </div>
+  </div>
+</div>
